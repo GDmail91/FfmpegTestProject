@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         tempBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // 이부분에 원하는 명령어를 삽입하세요
                 String something = "-d";
                 String[] splitedA = something.split(" ");
                 char[][] temp = new char[splitedA.length][];
